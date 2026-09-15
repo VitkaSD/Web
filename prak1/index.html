@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="base-inf">
+        <img class="profile-pic" src="./img/profile_pic.jpg" alt="profile_pic">
+        <div class="info-container">
+            <div class="information">
+                <div class="info-name">Иван Петров</div>
+                <div class="info-skills">Frontend Developer</div>
+            </div>
+            <div class="contacts">
+                <div class="cont-logo">Контакты</div>
+                <div class="cont-phone-num">+79223344455</div>
+                <div class="cont-email">email@yandex.ru</div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+
+    <div class="desc">
+        <b>Немного обо мне:</b> это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков...
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Хобби</th>
+                <th>Социальные сети</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Чтение</li>
+                        <li>Путешествия</li>
+                        <li>Настольные игры</li>
+                        <li>Плавание</li>
+                    </ul>
+                </td>
+                <td>
+                    <ol>
+                        <li><a href="https://vk.com" target="_blank">VK</a></li>
+                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://t.me" target="_blank">Telegram</a></li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+        <div class="technologies">
+        <div class="tech-logo">Интересующие технологии</div>
+        <div class="tech-list">
+            <div class="tech-pic">
+                <img src="./img/JavaScript.png" alt="JavaScript">
+                <div>JavaScript</div>
+            </div>
+            <div class="tech-pic">
+                <img src="./img/Python.png" alt="Python">
+                <div>Python</div>
+            </div>
+            <div class="tech-pic">
+                <img src="./img/VueJS.png" alt="VueJS">
+                <div>VueJS</div>
+            </div>
+            <div class="tech-pic">
+                <img src="./img/PostgreSQL.png" alt="PostgreSQL">
+                <div>PostgreSQL</div>
+            </div>
+            <div class="tech-pic">
+                <img src="./img/Docker.png" alt="Docker">
+                <div>Docker</div>
+            </div>
+        </div>
+    </div>
+
+
+    <form class="feedback-form">
+        <div class="ff-logo">Форма обратной связи</div>
+        <div class="ff-row">
+            <label class="ff-field">
+                <input type="text" name="username" placeholder="Ваше имя" class="ff-input">
+            </label>
+            <label class="ff-field">
+                <input type="tel" name="phone" placeholder="Телефон" class="ff-input">
+            </label>
+        </div>
+
+        <label class="ff-field">
+            <textarea name="message" placeholder="Ваш вопрос" class="ff-textarea"></textarea>
+        </label>
+
+        <button type="submit" class="ff-btn">Отправить</button>
+    </form>
+</body>
+</html>
