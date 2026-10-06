@@ -1,0 +1,8 @@
+.obj {
+    background: red;
+    margin: 10px;
+}
+
+#wrapper{
+    display: flex;
+}
