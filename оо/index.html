@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет приложения для заметок</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="app-container">
+    <!-- Левый сайдбар -->
+    <aside class="sidebar">
+        <div class="sidebar-icon">☰</div>
+        <div class="sidebar-icon">⚙</div>
+    </aside>
+
+    <!-- Панель со списком заметок -->
+    <section class="note-list">
+        <div class="list-header">
+            <span>Сортировка по дате ⌄</span>
+            <div class="search-bar">
+                <span>🔍</span>
+                <input type="text" placeholder="ПОИСК ЗАМЕТОК">
+            </div>
+        </div>
+
+        <div class="month-divider">Июнь 2018</div>
+
+        <div class="note-item active">
+            <div class="note-date">
+                <span class="date-num">22</span>
+                <span class="date-day">ПТ</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Идеи для отпуска в Карелии</div>
+                <div class="note-snippet">Размокрет. Рускеала, Ладожские шхеры, снять домки на озере...</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">18</span>
+                <span class="date-day">MON</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Планирование бюджета</div>
+                <div class="note-snippet">Пересмотреть раскислена подписки, внтиммикроать покупки,</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">13</span>
+                <span class="date-day">WED</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Список книг для чтения</div>
+                <div class="note-snippet">Маресь Пруст — Піс направильно с Селу, рулим — Охомне дли...</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">10</span>
+                <span class="date-day">SUN</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Housing / Financial Plan</div>
+                <div class="note-snippet">My apartment hosts is ending soon but they have to move back in.</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">7</span>
+                <span class="date-day">THU</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Gát Síeta</div>
+                <div class="note-snippet">We chey cemar etamants matanss there they they are hanorads and.</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">5</span>
+                <span class="date-day">TUC</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Agnny Research</div>
+                <div class="note-snippet">Toy amcit at marketing / Advertising agenals that specials is digird</div>
+            </div>
+        </div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">2</span>
+                <span class="date-day">EAT</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Fitnest Book</div>
+                <div class="note-snippet">Today I bought it gatt neomess, but will redik werk waff the norvs.</div>
+            </div>
+        </div>
+
+        <div class="month-divider">May 2018</div>
+
+        <div class="note-item">
+            <div class="note-date">
+                <span class="date-num">30</span>
+                <span class="date-day">WED</span>
+            </div>
+            <div class="note-content">
+                <div class="note-title">Professionals – Vest</div>
+                <div class="note-snippet">If you are acceptable of authorty it is noot acceptable to demee eenty.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Панель редактора -->
+    <main class="editor">
+        <!-- Тулбар -->
+        <div class="toolbar">
+            <div class="toolbar-left">
+                <span class="toolbar-icon">〈</span>
+                <span class="toolbar-icon">〉</span>
+            </div>
+
+        </div>
+
+        <!-- Контент заметки -->
+        <div class="editor-content">
+            <div class="meta-date">Nov15, 1 week 2015</div>
+            <h1 class="main-title">Впечатления от поездки<br>в Санкт-Петербург</h1>
+            
+            <p>Эта поездка была долгожданной. Мы приехали на поезде "Сансан" утром. Сразу же направились к Эрмитажу. Очередь была, но это того стоило. Коллекция впечатляет, особенно залы с импрессионистами.</p>
+            
+            <p>Вечером гуляли по Невскому проспекту, смотрели на развод мостов. Это было поистине волшебно. Город светится огнями, и атмосфера просто невероятная. Нашли уютное кафе "Пышечная" на Конюшенной. Обязательно к посещению!</p>
+            
+            <p>Не следующий день посетили Петергоф. Фонтаны работают великолепно.</p>
+            
+            <p>Очень рад, что удалось вырваться на выходные. Ощущение обновления.</p>
+            
+            <p>Планы на следующий раз: сходить в Мариинку и поехать в Планы на следующий раз: сходить в Мариинку и поехать в Царское Село.</p>
+        </div>
+
+        <!-- Статус бар -->
+        <div class="status-bar">
+            <div class="zoom-controls">
+                <span>100%</span>
+                <span>—</span>
+                <span>Масштаб</span>
+                <span>+</span>
+            </div>
+            <div class="status-icon">⤢</div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
