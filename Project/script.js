@@ -95,10 +95,6 @@ function selectNote(noteIndex) {
     noteItems.forEach((item, i) => {
         item.classList.remove('active');
         
-
-        if (notes[i] && typeof notes[i].is_active !== 'undefined') {
-            notes[i].is_active = false;
-        }
     });
     
 
@@ -106,9 +102,6 @@ function selectNote(noteIndex) {
     if (activeItem) {
         activeItem.classList.add('active');
 
-        if (notes[noteIndex] && typeof notes[noteIndex].is_active !== 'undefined') {
-            notes[noteIndex].is_active = true;
-        }
     }
 }
 
