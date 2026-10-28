@@ -151,5 +151,4 @@ if (sidebarToggle) {
     sidebarToggle.addEventListener('click', toggleNoteList);
 }
 
-// Initial render
 renderNotes(notes);
