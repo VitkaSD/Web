@@ -9,8 +9,7 @@ const weekdays = [
     "ВС","ПН","ВТ","СР","ЧТ","ПТ", "СУ"
 ];
 
-
-let noteItemsMap = new Map(); 
+	
 
 function renderNotes(notes) {
     const noteList = document.querySelector('.note-list');
@@ -20,9 +19,6 @@ function renderNotes(notes) {
     notes.forEach((note, index) => {
         const noteItem = document.createElement('div');
         noteItem.className = 'note-item';
-        
-
-        noteItemsMap.set(index, noteItem);
         
 
         const dateObj = new Date(note.date);
